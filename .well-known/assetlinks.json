@@ -1,25 +1,5 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.htvue",
-    "sha256_cert_fingerprints":
-    ["4A:82:CE:F1:7E:F1:88:80:C0:B2:24:28:D4:C3:56:58:74:7E:2F:2F:0B:F9:4B:9F:07:4A:BA:BE:11:FC:C3:D1"]
-  }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://ht-vue.vercel.app"
-  }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.htvue",
-    "sha256_cert_fingerprints":
-    ["4A:82:CE:F1:7E:F1:88:80:C0:B2:24:28:D4:C3:56:58:74:7E:2F:2F:0B:F9:4B:9F:07:4A:BA:BE:11:FC:C3:D1"]
-  }
+  "target" : { "namespace": "android_app", "package_name": "com.goranja.twahtvue",
+               "sha256_cert_fingerprints": ["1A:D8:E9:5F:7D:F5:63:B9:AF:50:B2:1B:99:F9:A8:49:9A:2F:6D:61:0F:94:31:66:65:79:58:2F:13:70:C0:D0"] }
 }]
